@@ -44,7 +44,7 @@ Following is the hash and name of the vulnerable driver :
 
 ## Moral of the story
 
-During red-teaming or Windows AD pwning scenarios, don't forget to look up drivers. Local admin (or system crash :)), may be closer than you excpect..
+During red-teaming or Windows AD pwning scenarios, don't forget to look at installed drivers. Local admin (or system crash :)), may be closer than you excpect..
 
 ## References
 	https://github.com/eclypsium/Screwed-Drivers
