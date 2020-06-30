@@ -47,7 +47,7 @@ Following is the hash and name of the vulnerable driver :
 During red-teaming or Windows AD pwning scenarios, don't forget to look for installed drivers. Local admin (or system crash :)) may be closer than you excpect..
 
 ## References
-[https://github.com/eclypsium/Screwed-Drivers](https://github.com/eclypsium/Screwed-Drivers)
-[http://blog.rewolf.pl/blog/?p=1630](https://github.com/eclypsium/Screwed-Drivers)
-[https://www.fuzzysecurity.com/tutorials/expDev/23.html](https://github.com/eclypsium/Screwed-Drivers)
-[http://www.jackson-t.ca/lg-driver-lpe.html](https://github.com/eclypsium/Screwed-Drivers)
+- [https://github.com/eclypsium/Screwed-Drivers](https://github.com/eclypsium/Screwed-Drivers)
+- [http://blog.rewolf.pl/blog/?p=1630](https://github.com/eclypsium/Screwed-Drivers)
+- [https://www.fuzzysecurity.com/tutorials/expDev/23.html](https://github.com/eclypsium/Screwed-Drivers)
+- [http://www.jackson-t.ca/lg-driver-lpe.html](https://github.com/eclypsium/Screwed-Drivers)
