@@ -11,7 +11,7 @@ That said, on my setup on Windows 10 version 10.0.17763.973) and with reasonable
 
 ## How does it work
 
-The Realtek rtkio64 driver maps kernel memory in an unsafe manner (using MmMapIoSpace routine) making it possible to map the kernel memory chunk by chunk by anyone who decides to talk to the driver. It is then possible to find and steal privileged tokens stored in the EPROCESS structure of privileged processes. When the current process token is overwritten with the privileged token, the current process gains "NT Authority\SYSTEM" privileges.
+The Realtek rtkio64 driver maps kernel memory in an unsafe manner (using MmMapIoSpace routine) making it possible to map the kernel memory by anyone who decides to talk to the driver. It is then possible to find and steal privileged tokens stored in the EPROCESS structure of privileged processes. When the current process token is overwritten with the privileged token, the current process gains "NT Authority\SYSTEM" privileges.
 
 ## Usage notes
 

