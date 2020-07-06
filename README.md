@@ -48,6 +48,6 @@ During red-teaming or Windows AD pwning scenarios, don't forget to look for inst
 
 ## References
 - [https://github.com/eclypsium/Screwed-Drivers](https://github.com/eclypsium/Screwed-Drivers)
-- [http://blog.rewolf.pl/blog/?p=1630](https://github.com/eclypsium/Screwed-Drivers)
-- [https://www.fuzzysecurity.com/tutorials/expDev/23.html](https://github.com/eclypsium/Screwed-Drivers)
-- [http://www.jackson-t.ca/lg-driver-lpe.html](https://github.com/eclypsium/Screwed-Drivers)
+- [http://blog.rewolf.pl/blog/?p=1630](http://blog.rewolf.pl/blog/?p=1630)
+- [https://www.fuzzysecurity.com/tutorials/expDev/23.html](https://www.fuzzysecurity.com/tutorials/expDev/23.html)
+- [http://www.jackson-t.ca/lg-driver-lpe.html](http://www.jackson-t.ca/lg-driver-lpe.html)
